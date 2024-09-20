@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+}
+.container{
+    /* background-color: aquamarine; */
+    padding: 34px;
+    max-width: 80%;
+    margin: auto;
+}
+.container h1,p{
+    text-align: center;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+p{
+    font-size: 18px;
+}
+.submit{
+    color: green;
+    font-size: 45px;
+    font-family: "Dancing Script", cursive;
+}
+input,textarea{
+    border:2px solid black;
+    border-radius:15px;
+    outline:none;
+    width:80%;
+    padding:10px;
+    font-size: 18px;
+    margin: 11px auto;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color:white;
+    background:purple;
+    font-size:17px;
+    padding:8px 12px;
+    border:2px solid white;
+    border-radius:10px;
+    cursor:pointer;
+}
+.bg{
+    width:100%;
+    z-index:-1;
+    position:absolute;
+    opacity: 0.8;
+}
