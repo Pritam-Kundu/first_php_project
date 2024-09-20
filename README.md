@@ -1,2 +1,2 @@
-# my_first_repo
-First repository in github
+# my_first_php_project
+My first php project -> It's a basic one page website 
